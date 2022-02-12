@@ -1,74 +1,162 @@
-.Header{
-    display: flex;
-   
-    background-color: aqua;
-    
+.Header {
+  background-color: hsl(216, 98%, 54%);
+  height: 70px;
+  width: 357px;
+  
 }
 
-.pic{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.pic {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
-.other{
-    display: flex;
-    margin-top: 10px;
-    
+.other {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+
 }
 
-.picc{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.picc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-.marg{
-    margin-left: 20px;
-    margin-right: 20px;
+.marg {
+ margin-top: 10px;
+ margin-left: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
-.prof{
-
-    border: solid black 1px;
-    padding-left: 10px;
+.prof {
+  border: solid rgb(238, 236, 236);
+  width: 360px;
 }
 
-.all{
-    display: flex;
-    
+.all {
+  display: flex;
 }
 
-.logo{
-    width: 20px;
-    height: 10px;
+.logo {
+  width: 20px;
+  height: 10px;
 }
 
-.log{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+.log {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
-.footer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+.footer {
+  margin-top: 10px;
 }
 
-.vvv{
-    width: 30px;
-    height: 25px;
+.vvv {
+  width: 30px;
+  height: 28px;
+  margin-right: 10px;
+}
+.note {
+  width: 30px;
+  height: 35px;
+  margin-right: 15px;
+}
+.vv {
+  width: 28px;
+  height: 28px;
 }
 
-.search{
-    width: 300px;
-    height: 40px;
-    border-radius: 20px;
+.search {
+  width: 340px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 9px;
+  background-color: rgb(236, 234, 234);
+  border: 0ch;
+  font-size: larger;
+  margin-bottom: 20px;
 }
 
-.sec{
-    margin-top: 350px;
-    margin-left: 500px;
-    font: caption;
+.sec {
+  margin-top: 350px;
+  margin-left: 500px;
+  font: caption;
+  font-style: inherit;
+  font-weight: bolder;
+  font-size: large;
+  color: gray;
+}
+
+.HeadName {
+  color: aliceblue;
+  font: bold;
+}
+.Headcont {
+  color: aliceblue;
+  
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ 
+  padding-left: 10px;
+}
+
+.cont {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font: bold;
+  padding: 15px;
+}
+
+h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+ font: bolder;
+ display: flex;
+ flex-direction: column;
+}
+
+.per {
+  width: 45px;
+  height: 45px;
+}
+
+.last {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.midd {
+  padding-left: 10px;
+}
+
+.v {
+  width: 35px;
+  height: 35px;
+}
+
+.def {
+  font-style: inherit;
+  font-weight: bolder;
+  font-size: large;
+  color: gray;
+  margin-top: 10px;
+}
+
+.status{
+  color: gray;
+  font-size: smaller;
+}
+
+.statuss{
+  color: white;
+  font-size: smaller;
 }
